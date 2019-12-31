@@ -6,10 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Botones en Bootstrap</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 </head>
 <body>
-    
+
+    <!---Diferentes tipos de colores de botones--->
+    <h3>Tipos de Colores</h3>
     <button class="btn btn-primary"> Agregar</button>
     <button class="btn btn-success"> Agregar</button>
     <button class="btn btn-secondary"> Agregar</button>
@@ -21,11 +24,124 @@
     <button class="btn btn-link"> Agregar</button>
 
     <hr>
-    <br>
+
+    <!--Otras formas de hacer botones-->
+    <h3>Formas de Crear Botones</h3>
+    <a class="btn btn-primary" href="#">Enlace</a>
+    <button type="submit" class="btn btn-success">Boton de tipo Submit</button>
+    <input type="button" class="btn btn-warning" value="Aceptar">
+    <input type="submit" class="btn btn-warning" value="Enviar">
+    <input type="reset" class="btn btn-warning" value="Refresh">
+
+    <hr>
     
+    <h3>Estilo de Boton Outline</h3>
+    <!---Estilo de boton--->
+    <button class="btn btn-outline-primary"> Agregar</button>
+    <button class="btn btn-outline-success"> Agregar</button>
+    <button class="btn btn-outline-secondary"> Agregar</button>
+    <button class="btn btn-outline-info"> Agregar</button>
+    <button class="btn btn-outline-warning"> Agregar</button>
+    <button class="btn btn-outline-danger"> Agregar</button>
+    <button class="btn btn-outline-light"> Agregar</button>
+    <button class="btn btn-outline-dark"> Agregar</button>
+    <button class="btn btn-outline-link"> Agregar</button>
+
+    <hr>
+
+    <!--Tamanos de botones--->
+    <h3>Tamano de Botones</h3>
+    <button class="btn btn-primary btn-lg">Button lg</button>
+    <button class="btn btn-primary btn-sm">Button sm</button>
+    <br><br>
+    <button class="btn btn-primary btn-block">Button Completo</button>
+    <br>
+
+    <!--Iconos--->
+    <button class="btn btn-primary">
+        <i class="fa fa-user"></i> Boton
+    </button>
+   
+    <i class="fa fa-facebook"></i>
+
+    <br>
+
+    <!--Estado de Botones--->
+    <button class="btn btn-dark active"> Hola  </button>
+    <button class="btn btn-dark disabled"> Hola  </button>
+    <button class="btn btn-dark" data-toggle="button"> Hola </button>
+
+    <hr>
+
+    <div class="dropdown">
+        <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+            Elegir
+        </button>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Uno</a>
+            <a href="#" class="dropdown-item">Dos</a>
+            <a href="#" class="dropdown-item">Tres</a>
+        </div>
+    </div>
+             
+    <hr>
+
+    <!--Agrupacion de Botones-->
+    <div class="btn-group">
+        <button class="btn btn-primary">Mi Boton</button>
+        <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+            Toogle Dropdown
+        </button>
+
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Uno</a>
+            <a href="#" class="dropdown-item">Dos</a>
+            <a href="#" class="dropdown-item">Tres</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="btn-group">
+        <button class="btn btn-danger">Izquierda</button>
+        <button class="btn btn-danger">Centro</button>
+        <button class="btn btn-danger">Derecha</button>
+    </div>
+
+    <hr>
+
+    <!--Alineacion de botones en toolbar--->
+
+    <div class="btn btn-toolbar" role="toolbar">
+        <div class="btn-group mr-2">
+            <button class="btn btn-primary">1</button>
+            <button class="btn btn-primary">2</button>
+            <button class="btn btn-primary">3</button>
+            <button class="btn btn-primary">4</button>
+        </div>    
+        <div class="btn-group">
+            <button class="btn btn-primary">5</button>
+            <button class="btn btn-primary">6</button>
+            <button class="btn btn-primary">7</button>
+            <button class="btn btn-primary">8</button>
+        </div>    
+    </div>
+
+    <hr>
+
+    <!--Alineacion de botones en vertical-->
+    <div class="btn-group-vertical">
+        <button class="btn btn-danger">Izquierda</button>
+        <button class="btn btn-danger">Centro</button>
+        <button class="btn btn-danger">Derecha</button>
+    </div>
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
+
