@@ -1,0 +1,36 @@
+Propiedades de espaciado
+
+m - para las clases que establecen margin
+
+p - para las clases que establecen padding
+
+Donde los lados es uno de:
+
+t- para las clases que establecen margin-top o padding-top
+
+b- para las clases que establecen margin-bottom o padding-bottom
+
+l- para las clases que establecen margin-left o padding-left
+
+r- para las clases que establecen margin-right o padding-right
+
+x- para las clases que establecen tanto -left y -right
+
+y- para las clases que establecen tanto -top y -bottom
+
+en blanco - para las clases que establecen un margin o padding en los 4 lados del elemento
+Donde el tamaño es uno de:
+
+0- Para las clases que eliminen el margino padding configurándolo como.0
+
+1- (por defecto) para las clases que establecen margino padding para $ spacer * .25
+
+2- (por defecto) para las clases que establecen margino padding para $ spacer * .5
+
+3- (por defecto) para las clases que establecen margino padding para $ spacer
+
+4- (por defecto) para las clases que establecen margino padding para $ spacer * 1.5
+
+5- (por defecto) para las clases que establecen margino padding para $ spacer * 3
+
+auto- Para las clases que configuran el margin auto.

@@ -29,3 +29,18 @@ Route::get('/test1', function () {
         'title' => 'Curso de Prueba Platzi'
     ]);
 });
+
+Route::resource('/expense_reports','ExpenseReportController');
+
+Route::get('/expense_reports/{id}/delete','ExpenseReportController@borrar');
+
+Route::get('/expense_reports/{expense_report}/expenses/create','ExpenseController@create');
+Route::post('/expense_reports/{expense_report}/expenses','ExpenseController@store');
+
+//Ruta para confirmacion de un correo
+Route::get('/expense_reports/{id}/confirmSendMail', 'ExpenseReportController@confirmSendMail');
+Route::post('/expense_reports/{id}/sendMail', 'ExpenseReportController@sendMail');
+
+Route::get('/calendario', function () {
+    return view('calendar');
+});

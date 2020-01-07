@@ -1,0 +1,32 @@
+/* Estilos del header */
+#header img{
+
+    width: 80px;
+}
+
+.text-platzi{
+ 
+    color: #97c93e !important;
+}
+
+.colorido{
+    display: block;
+}
+
+.colorido:hover{
+    background: crimson;
+}
+
+/* Estilos del footer */
+#footer{
+
+    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
+}
+
+#footer a{
+
+    color: white;
+}
+
+
+
