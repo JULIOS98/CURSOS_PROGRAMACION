@@ -41,6 +41,6 @@ Route::post('/expense_reports/{expense_report}/expenses','ExpenseController@stor
 Route::get('/expense_reports/{id}/confirmSendMail', 'ExpenseReportController@confirmSendMail');
 Route::post('/expense_reports/{id}/sendMail', 'ExpenseReportController@sendMail');
 
-Route::get('/calendario', function () {
-    return view('calendar');
-});
+
+
+
