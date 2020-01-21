@@ -71,6 +71,19 @@ img{
 }
 
 
+/*Hojas de estilo de  la section container fluid*/
+
+#place-time{
+    background-color: #343a40;
+    color: whitesmoke;
+}
+
+#place-time img {
+    max-width: 100%;
+}
+
+
+
 
 /* Estilos del footer */
 #footer{

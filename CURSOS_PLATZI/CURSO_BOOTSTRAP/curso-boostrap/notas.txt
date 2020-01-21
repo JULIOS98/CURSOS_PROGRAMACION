@@ -148,3 +148,42 @@ object-fit: cover; scale-down; o contain;
 }
 
 el cover funciona pero en mi caso me recorta la imagen y solo se miraba la mitad de la cara de las imágenes que utilice.s
+
+
+///////////////////////////////////////////////////////
+Apuntes de la clase Container-fluid 14:
+
+
+Propiedades de espaciado
+
+m - para las clases que establecen margin
+
+p - para las clases que establecen padding
+
+Donde los lados es uno de:
+
+t- para las clases que establecen margin-top o padding-top
+
+b- para las clases que establecen margin-bottom o padding-bottom
+
+l- para las clases que establecen margin-left o padding-left
+
+r- para las clases que establecen margin-right o padding-righ
+
+Hola! Creo que Sacha se pudo haber ahorrado los estilos CSS que puso:
+
+Para la imagen ancho 100% basta con agregarle .img-fluid
+
+En la columna puede ahorrse pl-0 y pr-0 con solo ```p-0``
+
+Y, el color negro de fondo con bg-dark y pueden usar también text-light o text-white
+
+-el .container-fluid a diferencia del .container normal ocupa todo el espacio del div en el cual se le ponga.
+-align-self-center: posiciona el div en el centro de la col
+
+
+//CENTRAR UN BOTON
+dentro de un div
+-class="d-flex justify-content-center"
+-class="d-block"
+-class="justify-self-center"
