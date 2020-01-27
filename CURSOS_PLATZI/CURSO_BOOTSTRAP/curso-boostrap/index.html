@@ -33,9 +33,20 @@
               <a class="nav-link" href="#cards">Participantes</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link text-platzi" href="#" data-toggle="modal" data-target="#modalCompra">Compra Tickets</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link text-platzi" href="#">Participantes</a>
-              </li>
-            <li class="nav-item dropdown">
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#speakers">Conviertete <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Desabilitado</a>
+            </li>
+          </ul>
+          <!----
+          <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Compra de Tickets
               </a>
@@ -46,15 +57,7 @@
                 <a class="dropdown-item" href="#">Promociones</a>
               </div>
             </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#speakers">Conviertete <span class="sr-only">(current)</span></a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Desabilitado</a>
-            </li>
-          </ul>
-
+          ----->
           <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -93,7 +96,7 @@
                   Te esperamos!
                 </p>
                 <a class="btn btn-outline-light" href="">Quiero ser orador</a>
-                <button class="btn btn-platzi" type="button">Comprar Tickets</button>
+                <button class="btn btn-platzi" type="button" data-toggle="modal" data-target="#modalCompra">Comprar Tickets</button>
               </div>
             </div>
           </div>
@@ -318,6 +321,27 @@
       </div>
     </div>
   </footer> <!--/footer-->
+
+  <!-- Modal -->
+<div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+</div>
  
   <!-- Optional JavaScript -->
 
