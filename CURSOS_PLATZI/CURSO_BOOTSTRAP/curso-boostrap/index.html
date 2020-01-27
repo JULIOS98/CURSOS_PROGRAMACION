@@ -229,18 +229,67 @@
     </div>
   </section> <!---/Container fluid para lugar y fecha--->
 
-  <section id="speakers"> <!---Apartado de speakers-->
+  <section id="speakers" class="py-4"> <!---Apartado de speakers-->
     <div class="container">
       <div class="row">
-        <div class="col">
-
+        <div class="col text-uppercase text-center">
+          <small>Conviertete en </small>
+          <h2>orador</h2>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col text-center">
+          Anotate como orador para dar una charla ignite.
+          Cuentanos de que quieres hablar!
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+          <form class="needs-validation">
+            
+            <div class="form-row">
+              <div class="form-group col-12 col-md-6">
+                <input type="text" class="form-control" placeholder="Nombre">
+                <div class="valid-feedback">
+                  Correcto!!
+                </div>
+                <div class="invalid-feedback">
+                  Por favor ingresa tu nombre.
+                </div>
+              </div>
+              <div class="form-group col-12 col-md-6">
+                <input type="text" class="form-control" placeholder="Apellido">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col">
+                <textarea name="text" class="form-control form-control-lg" id="" placeholder="De que quieres hablar?">
+
+                </textarea>
+                <small class="form-text text muted">
+                  Recuerda incluir un texto para tu charla
+                </small>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col">
+                <button type="submit" class="btn btn-platzi btn-block">Enviar</button>
+              </div>
+            </div>
+
+
+          </form>
+        </div>
+      </div>
+
     </div>
   </section> <!---Apartado de speakers-->
 
 
-  
   <footer id="footer"> <!----footer-->
     <div class="container">
       <div class="row pb-4 pt-4">
@@ -267,6 +316,7 @@
   </footer> <!--/footer-->
  
   <!-- Optional JavaScript -->
+  <script src="js/validaciones.js"></script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

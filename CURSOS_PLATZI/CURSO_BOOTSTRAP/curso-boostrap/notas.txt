@@ -187,3 +187,16 @@ dentro de un div
 -class="d-flex justify-content-center"
 -class="d-block"
 -class="justify-self-center"
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+Apuntes de la clase 15: Formularios
+Los formularios de Bootstrap 4
+Apuntes:
+Bootstrap nos permite trabajar con formularios, puesto que tiene un modulo muy extenso para interactuar con formularios de multiples maneras.
+La clase “.form-group” nos permite darle cierto espaciado a los input.
+Con la clase “.form-control-lg” especificamos que es un input del formulario como tal, pero que lleva un tamaño grande.
+Con la clase “.form-text” especificamos que es un texto para el formulario y con “.text-muted” especificamos que va a tener una tonalidad gris.
+Con la clase “.btn-block” podemos hacer que el botón ocupe todo el ancho disponible.
+
+offset-md- 2 , clase para mover la columna hacia la derecha. Esta clases aumentan el margen izquierdo de una columna por * columnas.
