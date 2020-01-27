@@ -200,3 +200,19 @@ Con la clase “.form-text” especificamos que es un texto para el formulario y
 Con la clase “.btn-block” podemos hacer que el botón ocupe todo el ancho disponible.
 
 offset-md- 2 , clase para mover la columna hacia la derecha. Esta clases aumentan el margen izquierdo de una columna por * columnas.
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+Apuntes de la clase 16: Tooltip
+
+Apuntes:
+Bootstrap nos permite hacer referencia a una palabra y mostrar una pequeña descripción acerca de la misma a traves de tooltips.
+abbr: Esta etiqueta es representada como una abreviación, junto con el atributo “title”, permite hacer una descripción acerca de la palabra abreviada.
+A la etiqueta abbr, podemos incluirle un aributo llamado ‘data-toggle=”tooltip”’, a lo que posteriormente debemos crearle un script al final del documento html y escribir dentro del mismo lo siguiente:
+$(function(){ $('[data-toggle="tooltip"').tooltip() })
+Esto nos permitirá añadirle una mejor visibilidad al tooltip.
+
+¿Que es un tooltip?
+Un tooltip (también llamada descripción emergente) es una herramienta de ayuda visual, que funciona al situar el cursor sobre algún elemento gráfico, mostrando una ayuda adicional para informar al usuario de la finalidad del elemento sobre el que se encuentra.
+
+Los tooltip son una variación de los globos de ayuda y es un complemento muy usado en programación y diseño, dado que proporcionan información adicional sin necesidad de que el usuario la solicite de forma activa.
