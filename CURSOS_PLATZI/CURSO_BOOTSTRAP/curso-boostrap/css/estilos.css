@@ -83,6 +83,12 @@ img{
 }
 
 
+/*Hoja de estilos del abbr de la section speakers*/
+#ignite abbr {
+    color: #82ad36;
+    text-decoration: none;
+}
+
 
 
 /* Estilos del footer */

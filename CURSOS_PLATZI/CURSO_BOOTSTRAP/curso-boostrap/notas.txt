@@ -216,3 +216,30 @@ Esto nos permitirá añadirle una mejor visibilidad al tooltip.
 Un tooltip (también llamada descripción emergente) es una herramienta de ayuda visual, que funciona al situar el cursor sobre algún elemento gráfico, mostrando una ayuda adicional para informar al usuario de la finalidad del elemento sobre el que se encuentra.
 
 Los tooltip son una variación de los globos de ayuda y es un complemento muy usado en programación y diseño, dado que proporcionan información adicional sin necesidad de que el usuario la solicite de forma activa.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+Apuntes de la clase 17: ScrollSpy
+
+Los atributos que usamos:
+data-spy=" " lleva como valor scroll.
+data-target=" " lleva como valor el id del elemento del menú.
+data-offset=" " una cantidad de pixeles, de tu header para que no se pierda la iluminación correcta de los elementos.
+
+Apuntes:
+Bootstrap nos permite saber la ubicación actual del menú donde nos encontramos a traves de la herramienta scroolspy. Para que esto sea posible debemos hacer lo siguiente:
+
+Ir a la documentación como apoyo para implementación: https://getbootstrap.com/docs/4.1/components/scrollspy/
+
+Asignarle al body los atributos de:
+data-spy="scroll" data-target="#navbar"
+
+Asignarle al div que contiene las etiquetas <a> de nagevacion la id de “navbar”.
+<div class="collapse navbar-collapse" id="navbar">
+
+Debemos asignar a los atributos “href” del menú de navegación las id que le colocamos a las secciones anteriormente.
+
+Podemos opcionalmente agregar la clase a la etiqueta <nav> de “.sticky-top” para que la barra de navegación nos acompañe.
+
+Es recomendable remover la clase “active” al ítem de navegación de inicio.
+
+Debemos asignar una clase adicional la etiqueta de body, la cual es “.data-offset=[numero]” y como número, debemos asignarle el alto de la barra de navegación. De esta manera optimizamos el Scrollspy.
