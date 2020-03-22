@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Condiciones y bucles en Vue</title>
+
+    <script src="js/vue.js"></script>
+
+</head>
+<body>
+
+    <div id="app">
+        
+        <div v-if="isVisible != true">
+            Es visible
+        </div>
+        <div v-else>
+            No es visible
+        </div>
+
+        <div v-if="value > 5">
+            Value es mayor a 5
+        </div>
+        <div v-else-if="value == 5">
+            Value es igual a 5
+        </div>
+        <div v-else>
+            Values es menor a 5
+        </div>
+
+    </div>
+
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
