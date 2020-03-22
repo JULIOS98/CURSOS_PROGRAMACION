@@ -1,6 +1,6 @@
 
 ****METODOS Y METODOS COMPUTADOS
--La diferencia de los --computed methos a los --methods es que los --computed methods guardan cache
+-La diferencia de los --computed methods a los --methods es que los --computed methods guardan cache
 
 ****EVENTOS
 - v-on:click o @click
