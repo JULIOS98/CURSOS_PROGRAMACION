@@ -4,3 +4,6 @@
 
 ****EVENTOS
 - v-on:click o @click
+
+***WATCH OBSERVADORES
+-tambien funcionan como triggers o disparadores
